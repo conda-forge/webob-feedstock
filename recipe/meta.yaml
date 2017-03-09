@@ -1,6 +1,6 @@
 {% set name = "WebOb" %}
-{% set version = "1.6.2" %}
-{% set sha256 = "e096c20ec672412f7d463fd5ed23f71b9176945c66b8adb8b781b8cda174de84" %}
+{% set version = "1.7.1" %}
+{% set sha256 = "3b2e3e4a46ce92614fb7d85081a63d03fa0c714dbe0195d5d91ec0205526c83f" %}
 
 package:
   name: {{ name|lower }}
@@ -26,9 +26,6 @@ requirements:
 test:
   imports:
     - webob
-
-  requires:
-    - nose
 
 about:
   home: http://webob.org/
