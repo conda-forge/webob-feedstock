@@ -1,6 +1,6 @@
 {% set name = "WebOb" %}
-{% set version = "1.8.0" %}
-{% set sha256 = "6fca7aa39bd2f6d2ff71f15a22223ff256c91f60b1ab52dac0ab38dc6ea9142f" %}
+{% set version = "1.8.1" %}
+{% set sha256 = "54f35073d2fdcddd7a98c2a1dedeede49739150737164a787220f30283139ba6" %}
 
 package:
   name: {{ name|lower }}
