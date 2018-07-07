@@ -9,17 +9,19 @@ Feedstock license: BSD 3-Clause
 
 Summary: WSGI request and response object
 
-WebOb provides objects for HTTP requests and responses. Specifically it does this by wrapping the WSGI request environment and response status/headers/app_iter(body).
-
-The request and response objects provide many conveniences for parsing HTTP request and forming HTTP responses. Both objects are read/write: as a result, WebOb is also a nice way to create HTTP requests and parse HTTP responses.
+WebOb provides objects for HTTP requests and responses. Specifically it
+does this by wrapping the WSGI request environment and response
+status/headers/app_iter(body). The request and response objects provide
+many conveniences for parsing HTTP request and forming HTTP responses. Both
+objects are read/write: as a result, WebOb is also a nice way to create HTTP
+requests and parse HTTP responses.
 
 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/webob-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/webob-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/webob-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/webob-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/webob-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/webob-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/webob-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/webob-feedstock)
 
 Current release info
 ====================
