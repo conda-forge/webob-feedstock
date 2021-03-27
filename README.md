@@ -5,9 +5,13 @@ Home: http://webob.org/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/webob-feedstock/blob/master/LICENSE.txt)
 
 Summary: WSGI request and response object
+
+Development: https://github.com/Pylons/webob/
+
+Documentation: http://webob.readthedocs.org/
 
 WebOb provides objects for HTTP requests and responses. Specifically it
 does this by wrapping the WSGI request environment and response
