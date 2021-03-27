@@ -33,6 +33,7 @@ about:
   home: http://webob.org/
   license: MIT
   license_family: MIT
+  license_file: webob/docs/license.txt
   summary: WSGI request and response object
   description: |
     WebOb provides objects for HTTP requests and responses. Specifically it
