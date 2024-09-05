@@ -1,6 +1,6 @@
-{% set name = "WebOb" %}
-{% set version = "1.8.7" %}
-{% set sha256 = "b64ef5141be559cfade448f044fa45c2260351edcb6a8ef6b7e00c7dcef0c323" %}
+{% set name = "webob" %}
+{% set version = "1.8.8" %}
+{% set sha256 = "2abc1555e118fc251e705fc6dc66c7f5353bb9fbfab6d20e22f1c02b4b71bcee" %}
 
 package:
   name: {{ name|lower }}
@@ -19,11 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools
 
   run:
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:
@@ -49,3 +49,4 @@ about:
 extra:
   recipe-maintainers:
     - stuertz
+    - ChrisBarker-NOAA
