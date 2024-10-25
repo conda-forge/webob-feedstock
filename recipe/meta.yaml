@@ -21,11 +21,11 @@ requirements:
     - pip
     - python >=3.8
     - setuptools
-    - legacy-cgi
+    - legacy-cgi >=2.6
 
   run:
     - python >=3.8
-    - legacy-cgi
+    - legacy-cgi >=2.6
 
 test:
   imports:
