@@ -1,6 +1,6 @@
 {% set name = "webob" %}
-{% set version = "1.8.9" %}
-{% set sha256 = "ad6078e2edb6766d1334ec3dee072ac6a7f95b1e32ce10def8ff7f0f02d56589" %}
+{% set version = "1.8.10" %}
+{% set sha256 = "1c963a11f307bc3f624fbab9dde737701eae255f32981b7a5486a88db1767c2b" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
